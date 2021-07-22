@@ -1,0 +1,37 @@
+
+/*Footer*/
+footer {
+    background-color: #F2F2F2;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titre-apropos {
+    padding-bottom: 0px;
+}
+
+.a-propos {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-noshebergements {
+    margin-bottom: 0px;
+}
+
+.nos-hebergements {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-assistance {
+    padding-bottom: 0px;
+}
+
+.assistance {
+    display: flex;
+    flex-direction: column;
+}
+
