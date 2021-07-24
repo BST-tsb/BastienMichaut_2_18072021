@@ -10,27 +10,18 @@ footer {
 
 .titre-apropos {
     padding-bottom: 0px;
-}
-
-.a-propos {
     display: flex;
     flex-direction: column;
 }
 
 .titre-noshebergements {
     margin-bottom: 0px;
-}
-
-.nos-hebergements {
     display: flex;
     flex-direction: column;
 }
 
 .titre-assistance {
     padding-bottom: 0px;
-}
-
-.assistance {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
