@@ -5,7 +5,7 @@ footer {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 .titre-apropos {
@@ -33,5 +33,6 @@ footer {
 .assistance {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
