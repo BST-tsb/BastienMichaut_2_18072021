@@ -1,3 +1,289 @@
+/*header*/
+header {
+    
+    padding: 20px 0px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+
+}
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #0065fc;
+  }
+  
+  header ul li a:hover {
+    border-top: 2px solid #0065fc;
+    padding-top: 21px;
+    color: #0065fc;
+  }
+  header ul li {
+    margin-left: 28px;
+  }
+  
+
+/*body*/
+body{
+    font-family: "Raleway", "Sans serif";
+    margin: 0;
+}
+.titre{
+    font-weight: bold;
+}
+.recherche{
+  width: 400px;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.logo-gps{
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 10px 0 0 10px;
+}
+.barre-recherche{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: 0.10px solid #F2F2F2;
+}
+.rechercher{
+  background-color: #0065fc;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  color: #F2F2F2;
+  border-radius: 0 10px 10px 0;
+}
+.rechercher :hover{
+
+}
+
+.filtres{
+  display:flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.titre-filtres{
+  display:flex;
+  align-items: center;
+  margin-right: 20px;
+
+}
+.filtre-button{
+  display:flex;
+  align-items: center;
+
+}
+.text-icon{
+  background-color: white;
+  height: 32px;
+  border-radius: 30px;
+  margin-right: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.10px solid #F2F2F2;
+
+}
+.logo{
+  border-radius: 25px;
+  width: 32px;
+  height: 32px;
+  color: #0065fc;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #deebff;
+}
+.text-icon :hover{
+  background-color: #0065fc;
+  height: 32px;
+  border-radius: 30px;
+  margin-right: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.10px solid #F2F2F2;
+  color: white;
+  transition: 0.5ms;
+}
+
+/*hebergement*/
+#hebergements{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hebergement{
+  flex: 2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.choix-hebergement{
+  
+}
+.plus-populaires{
+  flex: 1;
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+}
+.img-hebergement1{
+  background-image: url(./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-hebergement2{
+  background-image: url(./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-hebergement3{
+  background-image: url(./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-hebergement4{
+  background-image: url(./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-hebergement5{
+  background-image: url(./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-hebergement6{
+  background-image: url(./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+
+.img-populaire1{
+  background-image: url(./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-populaire2{
+  background-image: url(./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+.img-populaire3{
+  background-image: url(./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+
+}
+
+
+
+/*activités*/
+
+#activite{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.test{
+  width: 100%;
+  height: 600px;
+}
+.activites{
+   width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+
+}
+.activite-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+.img-activite-1{
+  background-image: url(./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 530px;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+  margin-left: 30px;
+}
+
+.nom-activite1{
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
 
 /*Footer*/
 footer {
@@ -5,25 +291,27 @@ footer {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
+
     
 }
-
-.titre-apropos {
-    padding-bottom: 0px;
-    display: flex;
+.footer-section{
+    display:flex;
     flex-direction: column;
+
 }
 
-.titre-noshebergements {
-    margin-bottom: 0px;
+.titre-footer {
+    padding-bottom: 10px;
+    font-weight: 700;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+footer li {
+    list-style-type: none;
 }
 
-.titre-assistance {
-    padding-bottom: 0px;
-    display: flex;
+.footer-section{
+    display:flex;
     flex-direction: column;
-    margin-right: 20px;
 }
-
