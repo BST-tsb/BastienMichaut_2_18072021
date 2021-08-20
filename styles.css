@@ -474,28 +474,27 @@ footer ul {
     flex-direction:column;
     width: 768px;
     height: auto;
+
   } 
   .activite2, .activite-4, .activite-1, .activite3, .activite5, .activite6 {
     width: 100%; 
     flex-direction: column;
-    display: block;
-    height: 16%;
   }
   .activites{
-    display: block;
+    margin-left: 15%;
     flex-direction: column;
     height: 1700px;
-    margin-left: 30px;
+    width: 700px;
   }
 
   .img-act, .img-acti2, .img-acti3, .img-acti56{
-    width: 768px;
+    width: 100%;
     object-fit: cover;
     height: 200px;
     border-radius: 15px 15px 0 0;
   }
   .activite-5-6, .activite-2-3 {
-    display: block;
+    display: flex;
     flex-direction: column;
     width: 100%;
   }
@@ -509,24 +508,33 @@ footer ul {
   }
 
   .plus-populaires{
-    width: 768px;
+    margin-left: 15%;
+    width: 690px;
   }
   .hebergement{
-    width: 768px;
+    width: 700px;
     flex-direction: column;
     flex-wrap: nowrap;
     height: auto;
+    margin-left: 15%;
+    background-color: white;
+
+    
   }
   .englobement{
-    width: 768px;
     flex-direction: column;
     flex-wrap: nowrap;
+    background-color: white;
+    
   }
   .choix-hebergement{
     width: 100%;
   }
   .img-heb{
     height: 200px;
+  }
+  .chart-line-black{
+    margin-left: 500px;
   }
 
 }
