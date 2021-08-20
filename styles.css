@@ -483,8 +483,7 @@ footer ul {
   .activites{
     margin-left: 15%;
     flex-direction: column;
-    height: 1700px;
-    width: 700px;
+    width: 100%;
   }
 
   .img-act, .img-acti2, .img-acti3, .img-acti56{
@@ -509,10 +508,10 @@ footer ul {
 
   .plus-populaires{
     margin-left: 15%;
-    width: 690px;
+    width: 100%;
   }
   .hebergement{
-    width: 700px;
+    width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
     height: auto;
@@ -534,7 +533,6 @@ footer ul {
     height: 200px;
   }
   .chart-line-black{
-    margin-left: 500px;
   }
   .filtres {
     flex-direction: column;
