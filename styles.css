@@ -6,10 +6,20 @@ header {
   display: flex;
   align-items: center;
 }
+.bleu3 {
+  text-decoration: none;
+  color: #0065fc;
+}
 
 .bleu {
   text-decoration: none;
   color: #0065fc;
+}
+.bleu:hover {
+  border-top: 2px solid #0065fc;
+  padding-top: 21px;
+  color: #0065fc;
+
 }
 .noir {
   text-decoration: none;
@@ -37,11 +47,6 @@ nav{
 }
 .inscrire {
   margin-left: 28px;
-}
-.inscrire:hover {
-  border-top: 2px solid #0065fc;
-  color: #0065fc;
-  padding-top: 21px;
 }
 
 /*body*/
@@ -71,9 +76,6 @@ body {
 .recherche {
   width: 400px;
   border-radius: 10px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -129,6 +131,9 @@ body {
   align-items: center;
   margin-right: 20px;
 }
+.text-filtre:hover {
+  color: white;
+}
 .filtre-button {
   display: flex;
   align-items: center;
@@ -141,7 +146,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid grey;
+  border: 2px solid #f2f2f2;
 }
 .text-filtre {
   margin-right: 15px;
@@ -202,8 +207,6 @@ body {
   flex: 2;
   border-radius: 10px;
   background-color: #f2f2f2;
-  padding-left: 20px;
-  padding-right: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -213,11 +216,12 @@ body {
 }
 .hebergement {
   flex: 2;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-right: 20px;
   border-radius: 10px;
   background-color: #f2f2f2;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -225,7 +229,7 @@ body {
 }
 .titre-hebergement {
   margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   margin-left: 30px;
 }
 .titre-populaires {
@@ -246,6 +250,8 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   width: 30%;
+  padding-bottom: 30px;
+
 }
 .choix-hebergement {
   width: 30%;
@@ -364,15 +370,15 @@ body {
 .activite-1 {
   width: 23%;
   border-radius: 15px;
-  box-shadow: 0 0 0 1px #deebff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
 }
 .activite2 {
-  box-shadow: 0 0 0 1px #deebff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
   border-radius: 15px;
   margin-bottom: 30px;
 }
 .activite3 {
-  box-shadow: 0 0 0 1px #deebff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
   border-radius: 15px;
   margin-top: 30px;
 }
@@ -380,15 +386,15 @@ body {
 .activite-4 {
   width: 23%;
   border-radius: 15px;
-  box-shadow: 0 0 0 1px #deebff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
 }
 .activite5 {
-  box-shadow: 0 0 0 1px #deebff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
   border-radius: 15px;
   margin-bottom: 30px;
 }
 .activite6 {
-  box-shadow: 0 0 0 1px #deebff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
   border-radius: 15px;
   margin-top: 30px;
 }
@@ -401,13 +407,13 @@ body {
 }
 
 /*Footer*/
+
 footer {
   background-color: #f2f2f2;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
-  padding-right: 25%;
 }
 .footer-section {
   display: flex;
@@ -419,9 +425,6 @@ footer {
   padding-bottom: 10px;
   font-weight: 700;
   padding-left: 40px;
-  /*  display: flex;
-    justify-content: center;
-    */
 }
 footer li {
   list-style-type: none;
@@ -447,7 +450,14 @@ footer ul {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
   }
+  #activite{
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto; 
+  }    
   .activite2,
   .activite-4,
   .activite-1,
@@ -486,12 +496,17 @@ footer ul {
   #hebergements {
     display: flex;
     flex-direction: column-reverse;
-    align-items: normal
-    ;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;  
   }
 
   .plus-populaires {
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+
   }
   .hebergement {
     width: 100%;
@@ -499,6 +514,9 @@ footer ul {
     flex-wrap: nowrap;
     height: auto;
     background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
   }
   .englobement {
     flex-direction: column;
@@ -507,12 +525,13 @@ footer ul {
   }
   .choix-hebergement {
     width: 100%;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+
   }
   .img-heb {
     height: 150px;
   }
-  .chart-line-black {
-  }
+ 
   .filtres {
     flex-direction: column;
     align-items: flex-start;
@@ -581,5 +600,15 @@ footer ul {
     padding: revert;
     margin: revert;
   }
+  #recherche {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recherche{
+  width: 100%;
+}
 
 }
