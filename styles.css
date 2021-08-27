@@ -692,7 +692,7 @@ main {
     margin-right: 10px;
   }
   .plus-populaires {
-    width: 100%;
+    width: 90%;
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 0px;
@@ -700,12 +700,15 @@ main {
 
   }
   .hebergement{
-      width: 100%;
+      width: 90%;
       padding-left: 0px;
       padding-right: 0px;
       margin-left: 0px;
       margin-right: 0%;
   
+  }
+  .titre-populaires{
+    margin-left: 30px;
   }
   .filtres {
     flex-direction: column;
@@ -762,7 +765,8 @@ main {
       display: flex;
     }
   .hebergement-populaire{
-    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
 }
