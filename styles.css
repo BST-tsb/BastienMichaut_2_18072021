@@ -291,8 +291,13 @@ body {
 .img-pop {
   width: 120px;
   object-fit: cover;
-  height: 150px;
+  height: 145px;
   border-radius: 15px 0 0 15px;
+}
+
+.img-populaire1 {
+display: flex;
+margin: 5px;
 }
 
 .plus {
@@ -640,10 +645,7 @@ footer ul {
     border-top: none;
     padding-bottom: 5px;
   }
-  header ul {
-    padding: revert;
-    margin: revert;
-  }
+
   #recherche {
     display: flex;
     flex-direction: column;
